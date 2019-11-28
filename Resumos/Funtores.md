@@ -152,8 +152,8 @@ Funcao Original: a → b
 fmap : b → c
 
 Resultado do funtor: (a → b)
-						  ↓
-						  c
+			  ↓
+		  	  c
 ```
 
 ## Contravariante
@@ -163,8 +163,8 @@ Funcao Original: a → b
 cmap : c → a
 
 Resultado do funtor: (a → b)
-					  ↑
-					  c
+		      ↑
+		      c
 ```
 
 ## Profuntores
@@ -174,6 +174,6 @@ Funcao Original: b → c
 dimap : a → b, c → d,
 
 Resultado do funtor: (b → c)
-					  ↑   ↓
-					  a   d
+		      ↑   ↓
+		      a   d
 ```
